@@ -2,9 +2,9 @@
 
 A collection of python scripts to populate a scrolling display on a 16x2 LCD screen and to update a homepage file.
 
-[Acknowledgements](#acknowledgements) ┼ [Equipment](#equipment) ┼ [Deployment](#code)
+### &#127848; [Acknowledgements](#acknowledgements) &#127847; [Equipment](#equipment) &#127846; [Deployment](#code)
 
-<img src="https://raw.githubusercontent.com/NBPub/PiScreenLoop/main/logo.svg" title="PiScreen" style="width:100%;height:auto;">
+<img src="https://raw.githubusercontent.com/NBPub/PiScreenLoop/main/logo.svg" title="PiScreen" style="width:80%;height:auto;">
 
 ## Acknowledgements
 
@@ -35,9 +35,8 @@ crontab -e
 @reboot sleep 30; cd <path_to_directory> && python main.py
 ```
 
-URLs, API keys, and tokens are supplied to the scripts via `<path_to_directory>/.env`. This file is not provided in this repository. 
-See [example.env](/example.env) to get an idea of how various API calls are performed. 
-Links to the API services are also provided.
+URLs, API keys, and tokens are supplied to the scripts via `<path_to_directory>/.env`, which I have not included.
+Refer to [example.env](/example.env) to get an idea of how various API calls are performed and see documentation links to the API services.
 
 ----
 
@@ -56,15 +55,17 @@ Links to the API services are also provided.
 *certain API calls are limited in frequency, for example, AQI information is only queried once per hour*
 
 **[text_scroll](https://github.com/NBPub/PiScreenLoop/blob/main/stats.py#L10)** provides a horizontal "scroll" feature to display long text blocks, and has tunable parameters. 
-The screen only hits 16 characters across.
+The screen can only display 16 characters across at once.
 
 ----
 
 **Secondary Purpose** - if computer "DOOM" is powered on, add information to homepage.html file
 
   0. At end of above loop, check DOOM availability via Syncthing API | [doom_check]()
-  1. If available, query [docker API](https://github.com/NBPub/PiScreenLoop/blob/main/stats.py#L196) and [RSS API](https://github.com/NBPub/PiScreenLoop/blob/main/stats.py#L182) for container/update information
-      - also add a [random cat](https://github.com/NBPub/PiScreenLoop/blob/main/stats.py#L226) image! See [Cat Data Pages](https://cat-data-pages.onrender.com/)
+  1. If available, query additional APIs for information: 
+      - [docker API](https://github.com/NBPub/PiScreenLoop/blob/main/stats.py#L196) and [RSS API](https://github.com/NBPub/PiScreenLoop/blob/main/stats.py#L182) for container/update information
+	  - [BeatLog API](https://github.com/NBPub/BeatLog#-beatlog) for a server's reverse proxy and fail2ban stats
+      - [random cat](https://github.com/NBPub/PiScreenLoop/blob/main/stats.py#L226) image! See [Cat Data Pages](https://cat-data-pages.onrender.com/)
   2. Add pertinent information into HTML file via Jinja2 template, Syncthing syncs local file with DOOM
   3. DOOM uses the HTML file as a homepage. It's up to date with relevant information.
 
