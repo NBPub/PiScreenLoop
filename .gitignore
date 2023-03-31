@@ -1,0 +1,8 @@
+.env
+tests
+__pycache__ 
+old/
+icons
+error_log.txt
+homepage.html
+templates
