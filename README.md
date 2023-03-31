@@ -2,6 +2,8 @@
 
 A collection of python scripts to populate a scrolling display on a 16x2 LCD screen and to update a homepage file.
 
+[Acknowledgements](#acknowledgements) ┼ [Equipment](#equipment) ┼ [Deployment](#code)
+
 <img src="https://raw.githubusercontent.com/NBPub/PiScreenLoop/main/logo.svg" title="PiScreen" style="width:100%;height:auto;">
 
 ## Acknowledgements
