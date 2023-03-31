@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.28 841.89" style="enable-background:new 0 0 595.28 841.89;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#101318;stroke:#F4EB30;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:#3A52A4;}
+	.st2{opacity:0.5;fill:#BE5B54;}
+	.st3{font-family:'TimesNewRomanPSMT';}
+	.st4{font-size:436.787px;}
+	.st5{fill:#227F56;}
+	.st6{fill:#101318;stroke:#662D91;stroke-width:6;stroke-miterlimit:10;}
+</style>
+<g>
+	<ellipse class="st0" cx="238.25" cy="220.96" rx="150.45" ry="143.88"/>
+	<g>
+		<g>
+			<rect x="144.61" y="150.04" class="st1" width="34.43" height="48.84"/>
+			<rect x="183.05" y="150.04" class="st1" width="34.43" height="48.84"/>
+			<rect x="221.48" y="150.04" class="st1" width="34.43" height="48.84"/>
+			<rect x="259.91" y="150.04" class="st1" width="34.43" height="48.84"/>
+			<rect x="298.48" y="150.04" class="st1" width="34.43" height="48.84"/>
+			<rect x="144.61" y="246.53" class="st1" width="34.43" height="48.84"/>
+			<rect x="183.05" y="246.53" class="st1" width="34.43" height="48.84"/>
+			<rect x="221.48" y="246.53" class="st1" width="34.43" height="48.84"/>
+			<rect x="259.91" y="246.53" class="st1" width="34.43" height="48.84"/>
+			<rect x="298.48" y="246.53" class="st1" width="34.43" height="48.84"/>
+		</g>
+	</g>
+	<text transform="matrix(6.123234e-17 1 -1 6.123234e-17 140.6117 109.1441)" class="st2 st3 st4">π</text>
+	<g>
+		<g>
+			<path class="st5" d="M140.61,301.04h195.28v-60.19H140.61V301.04z M298.48,246.53h34.43v48.84h-34.43V246.53z M259.91,246.53
+				h34.43v48.84h-34.43V246.53z M221.48,246.53h34.43v48.84h-34.43V246.53z M183.05,246.53h34.43v48.84h-34.43V246.53z
+				 M144.61,246.53h34.43v48.84h-34.43V246.53z"/>
+			<path class="st5" d="M140.61,144.36v60.19h195.28v-60.19H140.61z M179.05,198.88h-34.43v-48.84h34.43V198.88z M217.48,198.88
+				h-34.43v-48.84h34.43V198.88z M255.91,198.88h-34.43v-48.84h34.43V198.88z M294.35,198.88h-34.43v-48.84h34.43V198.88z
+				 M332.91,198.88h-34.43v-48.84h34.43V198.88z"/>
+		</g>
+	</g>
+	<path class="st6" d="M238.25,364.84c87.32-2.27,144.29-47.22,150.45-143.88c-4.02,136.98-10.7,105.91,3.27,148.17
+		C352.04,351.91,238.25,364.84,238.25,364.84z"/>
+</g>
+</svg>
